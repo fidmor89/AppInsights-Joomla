@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.0" group="system">
+  <name>Application Insights Plugin</name>
+  <creationDate>2015-02-28</creationDate>
+  <version>1.0.0.1</version>
+  <releaseDate>2015-02-28 13:21:58</releaseDate>
+  <releaseType>Test release</releaseType>
+  <author>URL Team</author>
+  <authorUrl>url.edu.gt</authorUrl>
+  <copyright>(c) 2015 URL Team</copyright>
+  <description>Integrates a Joomla site with Microsoft Application Insights.</description>
+  <files>
+    <filename plugin="appinsightsplugin">appinsightsplugin.php</filename>
+    <filename>composer.json</filename>
+    <folder>src</folder>
+    <folder>vendor</folder>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field 
+          name="instrumentationkey"
+          type="text"
+          default=""
+          label="Instrumentation Key"
+          description="Instrumentation Key"
+          required="true"
+          filter="string"
+          size="50" />
+      </fieldset>
+    </fields>
+  </config>
+</extension>
