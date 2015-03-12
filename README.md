@@ -17,14 +17,19 @@ Contributors:
   
 
 Tags: Application Insights
+
 Requires at least: 3.x
+
 Tested on: 3.4
+
 License: GNU GPL 3.0
+
 License URI: http://opensource.org/licenses/GPL-3.0
 
 
 
 Integrates a Joomla site with Microsoft Application Insights.
+
 
 
 -- Description --
@@ -34,9 +39,7 @@ Other SDKs and documentation can be found <a href='https://github.com/Microsoft/
 
 
 
+
 -- Changelog --
 
-= 1.0 =
-
-* Initial Version
-* 
+= 1.0 = * Initial Version
