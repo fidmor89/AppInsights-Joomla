@@ -4,9 +4,26 @@ namespace ApplicationInsights\Joomla;
 
 /**
  * Does client-side instrumentation using the Javascript SDK for Application Insights
+ * 
+ * @package     Joomla.Platform
+ * @since       3.0
  */
 class Client_Instrumentation
 {
+   /**
+    * Send the information to Application Insights	
+    *
+
+    * @package	   Joomla.Platform
+    *
+    * @param       string  $_instrumentationkey  
+    *
+	
+    * @param       string  $_title
+    *
+    * @since       3.0 
+    
+    */
    function addPrefix($_instrumentationkey, $_title) {
        $rawSnippet = '<script type="text/javascript">
             var appInsights=window.appInsights||function(config){
@@ -26,13 +43,13 @@ class Client_Instrumentation
         $patterns[1] = '/PAGE_NAME/';
         $patterns[2] = '/PAGE_URL/';
         
-        /* Sets Instrumentation Key */
+        // Sets Instrumentation Key
         $replacements[0] = $_instrumentationkey;
         
-        /* Sets the page title */
+        // Sets the page title
         $replacements[1] = $_title;
        
-        /* Validate if displaying home page */
+        // Validate if displaying home page
         if ($_title == 'Home')
         {
             $replacements[2] = 'window.location.origin';
