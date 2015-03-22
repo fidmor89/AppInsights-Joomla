@@ -8,6 +8,7 @@
   <author>URL Team</author>
   <authorUrl>url.edu.gt</authorUrl>
   <copyright>(c) 2015 URL Team</copyright>
+  <license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html </license>
   <description>Integrates a Joomla site with Microsoft Application Insights.</description>
   <files>
     <filename plugin="appinsightsplugin">appinsightsplugin.php</filename>
