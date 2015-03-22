@@ -1,28 +1,23 @@
 <?php
+/* @copyright: AyDURL @license:GPLv3 */
 
 namespace ApplicationInsights\Joomla;
 
+defined('_JEXEC') or die;
+
 /**
  * Does client-side instrumentation using the Javascript SDK for Application Insights
- * 
- * @package     Joomla.Platform
- * @since       3.0
+ * @copyright   Copyright 2015. All rights re-served.
+ * @license     No information.
  */
 class Client_Instrumentation
 {
    /**
-    * Send the information to Application Insights	
+	* Add prefix 
+	*
+	* @param       string  $_instrumentationkey  
     *
-
-    * @package	   Joomla.Platform
-    *
-    * @param       string  $_instrumentationkey  
-    *
-	
-    * @param       string  $_title
-    *
-    * @since       3.0 
-    
+	* @param       string  $_title  
     */
    function addPrefix($_instrumentationkey, $_title) {
        $rawSnippet = '<script type="text/javascript">
