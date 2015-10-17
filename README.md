@@ -2,19 +2,23 @@
 Main development repository for Application Insights Joomla plugin.
 
 ## Contributors ##
-  - Fidel Esteban Morales Cifuentes
+  - <a href='https://github.com/fidmor89'>Fidel Esteban Morales Cifuentes</a>.
   - Juan Manuel Lopez Lucero
-  - Jose Luis Morales Ruiz
+  - <a href='https://github.com/chepix10'>Jose Luis Morales Ruiz</a>.
   - Giorgio Balconi
   - Gustavo Andres Zamora Sosa
   - Hugo Orozco
-  - Jose Carlos Mendez
+  - <a href='https://github.com/josemen'>Jose Carlos Mendez</a>.
   - Jose Rodrigo Gonzalez
   - Josue Mazariegos
   - Manuel Santizo
   - Erick Diaz
   - Raul Guerra Gomez
-  
+  - <a href='https://github.com/chirislash'>Luis Roberto Rosales Enriquez</a>.
+  - <a href='https://github.com/jarodriguez08'>Jorge Andres Rodriguez Cuevas</a>.
+  - <a href='https://github.com/herbertharriola'>Herberth Francisco Arriola</a>.
+  - <a href='https://github.com/oscargarciacolon'>Oscar Garcia Colon - Teacher and Facilitator</a>.  
+
 
 Tags: Application Insights
 
