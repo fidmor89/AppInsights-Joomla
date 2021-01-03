@@ -43,7 +43,7 @@ JOOMLAAISCRIPT;
         $replacements[0] = $_instrumentationkey;
 
         // Sets the page title
-        $replacements[1] = $_title;
+        $replacements[1] = json_encode($_title, JSON_HEX_APOS);
 
         // Validate if displaying home page
         if ($_title == 'Home') {
