@@ -38,7 +38,13 @@ class Server_Instrumentation
         $requestName = $this->getRequestName();
         $startTime = $_SERVER["REQUEST_TIME"];
         $duration = ($this->getMicrotime() - $this->_startTime) * 1000;
-        $this->_telemetryClient->trackRequest($requestName, $url, $startTime, $duration);
+        $responseCode = http_response_code();
+        if ($responseCode >= 200 && $responseCode < 400 ) {
+            $succesFull = true;
+        } else {
+            $succesFull = false;
+        }
+        $this->_telemetryClient->trackRequest($requestName, $url, $startTime, $duration, $responseCode, $succesFull);
         
         // Flush all telemetry items
         $this->_telemetryClient->flush(); 
